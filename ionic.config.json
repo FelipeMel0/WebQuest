@@ -1,0 +1,7 @@
+{
+  "name": "WebQuest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
