@@ -1,3 +1,4 @@
+import { UtilsService } from './../../services/utils/utils.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,8 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent  implements OnInit {
 
-  constructor() { }
+  constructor(
+    private utils: UtilsService
+  ) { }
 
   ngOnInit() {}
+
+  navegarPagina(pagina: string) {
+    this.utils.navigateForward(pagina);
+  }
 
 }

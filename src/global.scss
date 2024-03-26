@@ -26,21 +26,49 @@
 @import "@ionic/angular/css/flex-utils.css";
 
 :root {
-  --azul-escuro: #003F63;/* Um azul escuro profundo */
-  --azul-petroleo: #00788C;/* Um azul petróleo */
-  --azul-turquesa: #00A8A8;/* Um azul turquesa */
-  --azul-claro: #A1E6E3;/* Um azul claro */
-  --azul-mais-claro: #E8FFFE;/* Um azul muito claro, quase branco */
+    --azul-escuro: #003f63; /* Um azul escuro profundo */
+    --azul-petroleo: #00788c; /* Um azul petróleo */
+    --azul-turquesa: #00a8a8; /* Um azul turquesa */
+    --azul-claro: #a1e6e3; /* Um azul claro */
+    --azul-mais-claro: #e8fffe; /* Um azul muito claro, quase branco */
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    color: black;
-  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        color: black;
+    }
 
+    * {
+        box-sizing: border-box;
+        font-family: "Bahnschrift", sans-serif;
+        //sugira uma fonte padrão para o projeto
+
+    }
+
+    ion-content, body {
+        font-size: 14px;
+        overflow-x: hidden;
+        --background: var(--azul-mais-claro) !important;
+    }
+
+    .container {
+        width: 100% !important;
+        max-width: 1440px !important;
+        padding: 0 60px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    h4 {
+        font-weight: 300;
+    }
 
 }
