@@ -24,3 +24,23 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+:root {
+  --azul-escuro: #003F63;/* Um azul escuro profundo */
+  --azul-petroleo: #00788C;/* Um azul petróleo */
+  --azul-turquesa: #00A8A8;/* Um azul turquesa */
+  --azul-claro: #A1E6E3;/* Um azul claro */
+  --azul-mais-claro: #E8FFFE;/* Um azul muito claro, quase branco */
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: black;
+  }
+
+
+}

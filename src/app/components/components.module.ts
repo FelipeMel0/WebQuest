@@ -1,4 +1,4 @@
-import { NgModule } from "@angular/core";
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from "@angular/core";
 import { HeaderComponent } from "./header/header.component";
 
 @NgModule({
@@ -8,7 +8,8 @@ import { HeaderComponent } from "./header/header.component";
   imports: [],
   exports: [
     HeaderComponent
-  ]
+  ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 
 export class ComponentsModule{}
