@@ -1,5 +1,5 @@
 ion-grid {
-  background-color: var(--azul-petroleo);
+  background-color: var(--azul-escuro);
   box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.75);
 
   div {
@@ -11,9 +11,10 @@ ion-grid {
 
   h2{
     cursor: pointer;
+    color: white;
   }
   h2:hover {
     text-decoration: underline;
-    color: white;
+    color: rgba(222, 222, 222, 0.897);
   }
 }
