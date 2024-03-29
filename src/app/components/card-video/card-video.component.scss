@@ -1,0 +1,40 @@
+.info-card {
+  border: 2px solid var(--azul-petroleo);
+  border-radius: 20px;
+  width: 320px;
+  max-height: 400px;
+
+  a {
+    text-decoration: none;
+  }
+
+  .video-thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 320px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 17px 17px 0px 0px;
+    }
+  }
+
+  .info-video {
+    height: 100%;
+    background-color: var(--azul-petroleo);
+    border-radius: 0px 0px 17px 17px;
+    overflow: hidden;
+    padding: 10px;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    h2,
+    p {
+      color: white;
+      text-decoration: none !important;
+    }
+  }
+}
