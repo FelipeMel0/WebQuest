@@ -17,7 +17,15 @@ const routes: Routes = [
   {
     path: 'videos',
     loadChildren: () => import('./pages/videos/videos.module').then( m => m.VideosPageModule)
+  },  {
+    path: 'historia',
+    loadChildren: () => import('./pages/historia/historia.module').then( m => m.HistoriaPageModule)
+  },
+  {
+    path: 'definicoes',
+    loadChildren: () => import('./pages/definicoes/definicoes.module').then( m => m.DefinicoesPageModule)
   }
+
 
 
 ];
