@@ -38,7 +38,8 @@
         font-family: "Bahnschrift", sans-serif;
     }
 
-    ion-content, body {
+    ion-content,
+    body {
         font-size: 14px;
         overflow-x: hidden;
         --background: var(--azul-mais-claro) !important;
@@ -66,4 +67,7 @@
         font-weight: 300;
     }
 
+    p {
+        font-size: 18px;
+    }
 }
